@@ -1,0 +1,26 @@
+namespace FirstProject
+{
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            var input1 = int.Parse(Console.ReadLine());
+            var input2 = int.Parse(Console.ReadLine());
+            var input3 = int.Parse(Console.ReadLine());
+            if (input1 <= 100 && input2 <= 100 && input3 <= 100) 
+            {
+                var sum = input1 + input2 + input3;
+                Console.WriteLine(sum);
+            }
+            else
+            {
+                Console.WriteLine("za duża liczba");
+            }
+
+
+
+        }
+    }
+}
