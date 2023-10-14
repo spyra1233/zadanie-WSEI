@@ -1,0 +1,2 @@
+# zadanie-WSEI
+przedział liczb
